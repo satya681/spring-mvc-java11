@@ -21,4 +21,6 @@ pipeline {
         sh "docker run-itd --name saty3 -p 9000:8080 application:v3 " 
       }
     }
+  }  
   } 
+}
